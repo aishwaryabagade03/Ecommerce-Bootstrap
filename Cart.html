@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Project.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+        <!-- Header  -->
+        <div class="headertop py-3">
+          <div class="container">
+            <div class="row d-flex justify-content-between">
+              <div class="d-flex justify-content-between">
+                <div class="headtext1">
+                  <span>
+                    Additional 
+                    <span class="text-danger">20% Off </span> 
+                    Sale Items – Please See Details
+                  </span>
+                </div>
+                <div class=" d-flex ">
+                  <div class="dropdown me-4 headtext2">
+                    <a href="#" class="text-decoration-none" role="button" data-bs-toggle="dropdown"  id="dropdownMenu">
+                      USD $
+                      <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                      <li>
+                        <a href="#" class="dropdown-item">EUR €</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">USD $</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown headtext2">
+                    <a href="#"  class="text-decoration-none" role="button" data-bs-toggle="dropdown"  id="dropdownMenu1" >
+                      <img src="./Images/flag01.jpg" alt="">
+                      English
+                      <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <img src="./Images/flag01.jpg" alt="">
+                          English
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <img src="./Images/flag02.jpg" alt="">
+                          اللغة العربية 
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <img src="./Images/flag03.jpg" alt="">
+                          Spanish
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>     
+            </div>
+          </div>
+        </div>
+       <!-- Header Ends  -->
+       <!-- Navbar  -->
+       <nav class="navbar navbar-light navbar-expand-lg bg-white py-3">
+        <div class="container d-flex">
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <a class="navbar-brand" href="./Project.html">
+            <img src="./Images/logo.png" alt="" />
+          </a>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <a class="navbar-brand me-5 p-0" href="./Project.html">
+                  <img src="./Images/logo.png" alt="" />
+                </a>
+              </h5>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body ">
+              <ul class="navbar-nav justify-content-center flex-grow-1 gap-3">
+                <li class="nav-item home">
+                  <a class="nav-link active" href="./Project.html"
+                    >Home       
+                  </a>
+                </li>
+                <li class="nav-item home1">
+                  <a class="nav-link active" href="./Product.html"
+                    >Product                
+                  </a>
+                </li>
+                <li class="nav-item home1">
+                  <a class="nav-link active" href="./Cart.html"
+                    >Cart                 
+                  </a>
+                </li>
+                <li class="nav-item home1">
+                  <a class="nav-link active" href="./Blog.html"
+                    >Blog                 
+                  </a>
+                </li>
+                <li class="nav-item home1">
+                  <a class="nav-link active" href="./Contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div >
+            <ul class=" navicon navicon1 p-0 mb-0 ">
+              <li class="nav_icon">
+                <a href="#"><i class="bi bi-person"></i></a>
+              <li class="nav_icon">
+                <a href="#"
+                  ><i class="bi bi-search text-decoration-none"></i
+                ></a>
+              </li>
+              <li class="nav_icon navbtn">
+                <button
+                type="button"
+                class="btn position-relative navicon shadow-none p-0 "
+              >
+                <i
+                  class="bi bi-shuffle text-decoration-none position-relative"
+                ></i>
+                <span
+                  class="position-absolute top-100 start-100 translate-middle py-1 px-2 bg-danger rounded-circle text-white"
+                  >3
+                  <span class="visually-hidden">New alerts</span>
+                </span>
+              </button>
+              </li>
+              <li class="nav_icon navbtn">
+                <button
+                type="button"
+                class="btn position-relative navicon shadow-none p-0"
+              >
+                <i class="bi bi-heart text-decoration-none"></i>
+                <span
+                  class="position-absolute top-100 start-100 translate-middle py-1 px-2 bg-danger rounded-circle text-white"
+                  >3
+                  <span class="visually-hidden">New alerts</span>
+                </span>
+              </button>
+              </li>
+              <li class="nav_icon navbtn">
+                <button
+                type="button"
+                class="btn position-relative navicon shadow-none p-0"
+              >
+                <i class="bi bi-handbag text-decoration-none"></i>
+                <span
+                  class="position-absolute top-100 start-100 translate-middle py-1 px-2 bg-danger rounded-circle text-white"
+                  >3
+                  <span class="visually-hidden">New alerts</span>
+                </span>
+              </button>
+              </li>
+              <li class="nav_icon">
+                <a href="#"><i class="bi bi-gear text-decoration-none"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+      <!-- Navbar Ends  -->
+      <!-- Page Banner  -->
+      <div class="pagebg">
+        <div class="container">
+          <div class="pagebanner">
+            <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb" class="d-flex justify-content-center">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item breadtext1"><a href="#" class="text-decoration-none pe-1">Home</a></li>
+                <li class="breadcrumb-item active breadicon" aria-current="page"><i class="bi bi-chevron-right"></i></li>
+                <li class="breadcrumb-item active ps-1 breadtext" aria-current="page">Shopping Cart</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Page banner ends  -->
+      <!-- Cart Table  -->
+      <div class="py-5">
+        <div class="container">
+          <div class="cartcontent">
+            <div class="table-responsive carttable">
+              <table class="table mb-0">
+                <thead>
+                  <tr>
+                    <th class="productsr">Image</th>
+                    <th class="productinfo">Product Information</th>
+                    <th class="productquantity">Quantity</th>
+                    <th class="product-price">Total Price</th>
+                    <th class="productaction">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="productsr">
+                     <img src="./Images/product-03.jpg" style="width: 100%;" alt="">
+                    </td>
+                    <td class="productinfo">
+                      <h6 class="name">
+                        <a href="#" class="text-decoration-none ">Originals Kaval Windbreaker Winter Jacket</a>
+                       </h6>
+                       <div class="productprice">
+                        <span class="oldprice">$35.90</span>
+                        <span class="newprice">$28.72</span>
+                        <span class="offer">Save 20%</span>
+                      </div>
+                      <div class="product-size text-secondary">
+                        <p class="mb-0">Size S</p>
+                        <p class="mb-0">Color White</p>
+                      </div>
+                    </td>
+                    <td class="productquantity">
+                      <div class="productcart d-inline-flex">
+                        <button type="button" class="sub1">
+                          <i class="bi bi-chevron-up"></i>
+                        </button>
+                        <input type="text" value="1">
+                        <button type="button" class="sub">
+                          <i class="bi bi-chevron-down"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td class="product-price text-secondary">
+                      <span>$28.72</span>
+                    </td>
+                    <td class="productaction">
+                      <span><i class="bi bi-trash3"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="productsr">
+                     <img src="./Images/product-3.jpg" style="width: 100%;" alt="">
+                    </td>
+                    <td class="productinfo">
+                      <h6 class="name">
+                        <a href="#" class="text-decoration-none ">Originals Kaval Windbreaker Winter Jacket</a>
+                       </h6>
+                       <div class="productprice">
+                        <span class="oldprice">$35.90</span>
+                        <span class="newprice">$28.72</span>
+                        <span class="offer">Save 20%</span>
+                      </div>
+                      <div class="product-size text-secondary">
+                        <p class="mb-0">Size S</p>
+                        <p class="mb-0">Color White</p>
+                      </div>
+                    </td>
+                    <td class="productquantity">
+                      <div class="productcart d-inline-flex">
+                        <button type="button" class="sub1">
+                          <i class="bi bi-chevron-up"></i>
+                        </button>
+                        <input type="text" value="1">
+                        <button type="button" class="sub">
+                          <i class="bi bi-chevron-down"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td class="product-price text-secondary">
+                      <span>$28.72</span>
+                    </td>
+                    <td class="productaction">
+                      <span><i class="bi bi-trash3"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="productsr">
+                     <img src="./Images/product-06.jpg" style="width: 100%;" alt="">
+                    </td>
+                    <td class="productinfo">
+                      <h6 class="name">
+                        <a href="#" class="text-decoration-none ">Originals Kaval Windbreaker Winter Jacket</a>
+                       </h6>
+                       <div class="productprice">
+                        <span class="oldprice">$35.90</span>
+                        <span class="newprice">$28.72</span>
+                        <span class="offer">Save 20%</span>
+                      </div>
+                      <div class="product-size text-secondary">
+                        <p class="mb-0">Size S</p>
+                        <p class="mb-0">Color White</p>
+                      </div>
+                    </td>
+                    <td class="productquantity">
+                      <div class="productcart d-inline-flex">
+                        <button type="button" class="sub1">
+                          <i class="bi bi-chevron-up"></i>
+                        </button>
+                        <input type="text" value="1">
+                        <button type="button" class="sub">
+                          <i class="bi bi-chevron-down"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td class="product-price text-secondary">
+                      <span>$28.72</span>
+                    </td>
+                    <td class="productaction">
+                      <span><i class="bi bi-trash3"></i></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Cart Table ends  -->
+            <!-- Cart Button  -->
+            <div class="cart-btn d-flex justify-content-between ">
+              <div class=" leftbtn">
+                <a href="#" class="btn rounded-pill text-decoration-none">CONTINUE SHOPPING</a>
+              </div>
+              <div class="rightbtn">
+                <a href="#" class="btn btn-outline-dark rounded-pill text-decoration-none me-3">CLEAR CART</a>
+                <a href="#" class="btn btn-outline-dark rounded-pill text-decoration-none">UPDATE CART</a>         
+              </div>
+            </div>
+          </div>
+          <!-- Cart Button ends  -->
+          <!-- Cart Content  -->
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="mt-5">
+                <div class="calculate">
+                  <h4 class="title">Calculate Shipping</h4>
+                  <p class="text-secondary m-0">Estimate your shipping fee *</p>
+                  <div class="cartform">
+                    <p class="text-secondary ">Calculate Shipping</p>
+                    <form action="#" class="mt-5">
+                      <select id="inputState" class="form-select" style="height: 50px;">
+                        <option selected class="bg-secondary text-white">Select a country./Images.</option>
+                        <option>Bangladesh</option>
+                        <option>Canada</option>
+                        <option>Colombia</option>
+                        <option>Indonesia</option>
+                        <option>Italy</option>
+                        <option>Pakistan</option>
+                        <option>Turkey</option>
+                      </select>
+                      <div class="mt-4">
+                        <select id="inputState" class="form-select" style="height: 50px;">
+                          <option selected class="bg-secondary text-white">Select a option./Images.</option>
+                          <option>Bagerhat</option>
+                          <option>Bandarban</option>
+                          <option>Barguna</option>
+                          <option>Barisal</option>
+                          <option>Bhola</option>
+                          <option>Bogra</option>
+                          <option>Brahmanbaria</option>
+                          <option>Chandpur</option>
+                          <option>Chittagong</option>
+                          <option>Chuadanga</option>
+                          <option>Comilla</option>
+                          <option>Cox's Bazar</option>
+                          <option>Dhaka</option>
+                          <option>Dinajpur</option>
+                          <option>Faridpur</option>
+                          <option>Feni</option>
+                          <option>Gaibandha</option>
+                          <option>Gazipur</option>
+                          <option>Gopalganj</option>
+                          <option>Habiganj</option>
+                          <option>Jamalpur</option>
+                          <option>Jessore</option>
+                          <option>Jhalokati</option>
+                          <option>Jhenaidah</option>
+                          <option>Joypurhat</option>
+                          <option>Khagrachhari</option>
+                          <option>Khulna</option>
+                          <option>Kishoreganj</option>
+                          <option>Kurigram</option>
+                          <option>Kustia</option>
+                          <option>Lakshmipur</option>
+                          <option>Lalmonirhat</option>
+                          <option>Madaripur</option>
+                          <option>Magura</option>
+                          <option>Manikganj</option>
+                          <option>Meherpur</option>
+                          <option>Moulvibazar</option>
+                          <option>Munshiganj</option>
+                          <option>Mymensingh</option>
+                          <option>Naogaon</option>
+                          <option>Narail</option>
+                          <option>Narayanganj</option>
+                          <option>Narsingdi</option>
+                          <option>Natore</option>
+                          <option>Nawabganj</option>
+                          <option>Netrakona</option>
+                          <option>Nilphamari</option>
+                          <option>Pabna</option>
+                          <option>Panchagarh</option>
+                          <option>Patuakhali</option>
+                          <option>Rajbari</option>
+                          <option>Rajshahi</option>
+                          <option>Rangamati</option>
+                          <option>Rangpur</option>
+                          <option>Satkhira</option>
+                          <option>Sherpur</option>
+                          <option>Sirajganj</option>
+                          <option>Sunamganj</option>
+                          <option>Tangail</option>
+                          <option>Thakurgaon</option>
+                        </select>
+                      </div>
+                      <div class="mt-4">
+                        <input type="text" class="form-control" placeholder="Postcode/ziip" id="inputZip" style="height: 50px;">
+                      </div>
+                      <div class="ship-btn mt-4">
+                        <a href="#" class="text-decoration-none btn rounded-pill">UPDATE TOTALS</a>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="mt-5">
+                <div class="coupon">
+                  <h4 class="title">Coupon Code</h4>
+                  <p class="text-secondary ">Enter your coupon code if you have one.</p>
+                  <div class="cart-form">
+                    <form action="#">
+                      <input type="text" class="form-control mt-5" placeholder="Enter your coupon code./Images" style="height: 50px;">
+                    </form>
+                    <div class="ship-btn mt-4">
+                      <a href="#" class="text-decoration-none btn rounded-pill">APPLY COUPON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="mt-5">
+                <div class="cart-totals">
+                  <h4 class="title">Cart totals</h4>
+                  <div class="carttotal">
+                    <table>
+                      <tbody>
+                        <tr class="border-bottom">
+                          <td>
+                            <p class="value py-1 pe-5 mb-0">Subtotal</p>
+                          </td>
+                          <td>
+                            <p class="value1 py-1 mb-0">	£600.00</p>
+                          </td>	
+                        </tr>
+                        <tr class="pb-1 border-bottom">
+                          <td>
+                            <p class="value py-1 pe-5 mb-0" >Shipping</p>
+                          </td>
+                          <td class="py-1">
+                            <div class="form-check m-0">
+                              <input class="form-check-input " type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                              <label class="form-check-label text-secondary" for="gridRadios1">
+                                Flat Rate
+                              </label>
+                            </div>
+                            <div class="form-check m-0">
+                              <input class="form-check-input " type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                              <label class="form-check-label text-secondary" for="gridRadios2">
+                                Free Shipping
+                              </label>
+                            </div>
+                            <div class="form-check m-0 ">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" >
+                              <label class="form-check-label text-secondary" for="gridRadios3">
+                               Local Pickup
+                              </label>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p class="value py-1 pe-5 mb-0">Total</p>
+                          </td>
+                           <td>
+                            <p class="value mb-0 py-1">£600.00</p>
+                           </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="ship-btn mt-4">
+                    <a href="#" class="text-decoration-none btn rounded-pill">PROCEED TO CHECKOUT</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cart Content ends  -->
+       <!-- footer section  -->
+  <footer class="footerbg py-5">
+    <div class="container p-0">
+      <div class="row mb-5 w-100">
+        <div class="col-lg-5 ">
+          <div class=" mt-4">
+            <div class="footernews">
+              <h3>LET'S KEEP IN TOUCH</h3>
+              <p class="m-0">Sign up for our e-mail to get latest news.</p>
+                <div class="input-group footerinput mt-5">
+                  <input type="text" class="form-control shadow-none bg-transparent" placeholder="Your email address" aria-label="Your email address" aria-describedby="button-addon2">
+                  <a href="#" class="btn btn-outline-secondary" type="button" id="button-addon2">SIGN UP</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="mt-4">
+            <div class="footerabt">
+              <h4>ABOUT US</h4>
+              <div class="abtinfo">
+                <p class="mb-0">M-F 9am-5pm EST</p>
+                <div class="aboutlist pt-2">
+                  <div class="singlelist d-flex pt-4">
+                    <i class="bi bi-geo-alt me-3"></i>
+                    <p>Fox Mountain Rd, South Fork, CO 81154, USA</p>
+                  </div>
+                  <div class="singlelist d-flex">
+                    <i class="bi bi-telephone me-3"></i>
+                    <a href="#" class="text-decoration-none contact_text">
+                      <p>+0123.456.8386</p>
+                    </a>
+                  </div>
+                  <div class="singlelist d-flex">
+                    <i class="bi bi-envelope me-3"></i>
+                    <a href="#" class="text-decoration-none contact_text">
+                      <p>support@example.com</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-3 col-6">
+          <div class="mt-4">
+            <div class="footerinfo">
+              <h4>INFORMATION</h4>
+                <ul class="pt-4 list-unstyled">
+                  <li class="listtext">
+                    <a href="#" class="text-decoration-none">Legal Notice</a>
+                  </li>
+                  <li class="mt-2 listtext">
+                    <a href="#" class="text-decoration-none">About Us</a>
+                  </li>
+                  <li  class="mt-2 listtext">
+                    <a href="#" class="text-decoration-none">Contact Us</a>
+                  </li>
+                  <li  class="mt-2 listtext">
+                    <a href="#" class="text-decoration-none">Sitemap</a>
+                  </li>
+                  <li  class="mt-2 listtext">
+                    <a href="#" class="text-decoration-none">Stores</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-3 col-6">
+          <div class="mt-4">
+            <div class="footerinfo">
+              <h4>CUSTOM LINKS</h4>
+                <ul class="pt-4 list-unstyled">
+                  <li class="listtext">
+                    <a href="#" class="text-decoration-none">Price Drop</a>
+                  </li>
+                  <li class="mt-2 listtext">
+                    <a href="#" class="text-decoration-none">New Products</a>
+                  </li>
+                  <li  class="mt-2 listtext">
+                    <a href="#" class="text-decoration-none">Best Sales</a>
+                  </li>
+                  <li  class="mt-2 listtext">
+                    <a href="#" class="text-decoration-none">Login</a>
+                  </li>
+                  <li  class="mt-2 listtext">
+                    <a href="#" class="text-decoration-none">My Account</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pb-2">
+      <div class="container">
+        <div class="row d-flex justify-content-end">
+          <div class="col-lg-3 ">
+           <div class="footericon">
+            <a href="" class="text-decoration-none text-center icons"> 
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href=""  class="text-decoration-none text-center icons">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href=""  class="text-decoration-none text-center icons">
+              <i class="bi bi-youtube"></i>
+            </a>
+           </div>
+          </div>
+          <div class="col-lg-9 pe-0 d-flex justify-content-end">
+            <div class="d-flex mb-2">
+              <div class="copyright">
+                <p>
+                  Copyright 2021 ©
+                <a href="#" class="text-decoration-none copytext">HasThemes .</a>
+                All Rights Reserved
+                </p>
+              </div>
+              <div class="payment">
+                <img src="./Images/payment.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer ends  -->
+  <!-- Back to top button  -->
+  <a href="#" class="backtotop" style="display: inline;">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+  <!-- Page ends  -->
+  </body>
+</html>
