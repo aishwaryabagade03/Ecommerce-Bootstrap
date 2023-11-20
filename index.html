@@ -35,29 +35,24 @@
   </head>
   <body>
     <!-- Navbar  -->
-    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
-      <div class="container d-flex">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container p-0">
         <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <a class="navbar-brand" href="./Project.html">
-          <img src="./Images/logo.png" alt="" />
-        </a>
-        <div
-          class="offcanvas offcanvas-start"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
         >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">
+          <img src="./Images/logo.png" alt="" style="width: 100px" />
+        </a>
+    
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              <a class="navbar-brand me-5 p-0" href="./Project.html">
+              <a class="navbar-brand me-5 p-0" href="./index.html">
                 <img src="./Images/logo.png" alt="" />
               </a>
             </h5>
@@ -76,27 +71,19 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body ">
+          <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-start flex-grow-1 gap-4">
               <li class="nav-item home">
-                <a class="nav-link active" href="./Project.html"
-                  >Home
-                </a>
+                <a class="nav-link active" href="./index.html">Home</a>
               </li>
               <li class="nav-item home1">
-                <a class="nav-link active" href="./Product.html"
-                  >Product
-                </a>
+                <a class="nav-link active" href="./Product.html">Product</a>
               </li>
               <li class="nav-item home1">
-                <a class="nav-link active" href="./Cart.html"
-                  >Cart
-                </a>
+                <a class="nav-link active" href="./Cart.html">Cart</a>
               </li>
               <li class="nav-item home1">
-                <a class="nav-link active" href="./Blog.html"
-                  >Blog
-                </a>
+                <a class="nav-link active" href="./Blog.html">Blog</a>
               </li>
               <li class="nav-item home1">
                 <a class="nav-link active" href="./Contact.html">Contact</a>
@@ -104,53 +91,29 @@
             </ul>
           </div>
         </div>
-        <div >
-          <ul class=" navicon p-0 mb-0 ">
+    
+        <div>
+          <ul class="navicon p-0 mb-0">
             <li class="nav_icon">
-              <a href="#"
-                ><i class="bi bi-search text-decoration-none"></i
-              ></a>
+              <a href="#"><i class="bi bi-search text-decoration-none"></i></a>
             </li>
             <li class="nav_icon navbtn">
-              <button
-              type="button"
-              class="btn position-relative navicon shadow-none p-0 "
-            >
-              <i
-                class="bi bi-shuffle text-decoration-none position-relative"
-              ></i>
-              <span
-                class="position-absolute top-100 start-100 translate-middle px-1 bg-danger rounded-circle text-white"
-                >3
-                <span class="visually-hidden">New alerts</span>
-              </span>
-            </button>
+              <button type="button" class="btn position-relative navicon shadow-none p-0">
+                <i class="bi bi-shuffle text-decoration-none position-relative"></i>
+                <span class="position-absolute top-100 start-100 translate-middle px-1 bg-danger rounded-circle text-white">3<span class="visually-hidden">New alerts</span></span>
+              </button>
             </li>
             <li class="nav_icon navbtn icon-hover">
-              <button
-              type="button"
-              class="btn position-relative navicon shadow-none p-0"
-            >
-              <i class="bi bi-heart text-decoration-none"></i>
-              <span
-                class="position-absolute top-100 start-100 translate-middle px-1 bg-danger rounded-circle text-white"
-                >3
-                <span class="visually-hidden">New alerts</span>
-              </span>
-            </button>
+              <button type="button" class="btn position-relative navicon shadow-none p-0">
+                <i class="bi bi-heart text-decoration-none"></i>
+                <span class="position-absolute top-100 start-100 translate-middle px-1 bg-danger rounded-circle text-white">3<span class="visually-hidden">New alerts</span></span>
+              </button>
             </li>
             <li class="nav_icon navbtn icon-hover">
-              <button
-              type="button"
-              class="btn position-relative navicon shadow-none p-0"
-            >
-              <i class="bi bi-handbag text-decoration-none"></i>
-              <span
-                class="position-absolute top-100 start-100 translate-middle px-1 bg-danger rounded-circle text-white"
-                >3
-                <span class="visually-hidden">New alerts</span>
-              </span>
-            </button>
+              <button type="button" class="btn position-relative navicon shadow-none p-0">
+                <i class="bi bi-handbag text-decoration-none"></i>
+                <span class="position-absolute top-100 start-100 translate-middle px-1 bg-danger rounded-circle text-white">3<span class="visually-hidden">New alerts</span></span>
+              </button>
             </li>
             <li class="nav_icon icon-hover">
               <a href="#"><i class="bi bi-gear text-decoration-none"></i></a>
@@ -158,7 +121,8 @@
           </ul>
         </div>
       </div>
-    </nav> 
+    </nav>
+    
     <!-- Navbar ends  -->
     <!-- carousel starts  -->
     <div class="container-fluid m-0 p-0 ">
@@ -274,48 +238,48 @@
       </div>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 d-flex justify-content-center">
         <div class=" mt-3 p-0 ">
-          <div class="card border-0 " >
-            <img src="./Images/category-1.png" class="card-img-top categoryimg" alt="./Images." style="width: 170px;">
+          <div class="card border-0  categoryimg" >
+            <img src="./Images/category-1.png" class="card-img-top " alt="./Images." style="width: 170px;">
             <div class="text-center mt-4 card-text">
               <h6>Fruits</h6>
             </div>
           </div>
         </div>
         <div class=" col mt-3 p-0 ">
-          <div class="card border-0" >
-            <img src="./Images/category-2.png" class="card-img-top categoryimg" alt="./Images." style="width: 170px;">
+          <div class="card border-0 categoryimg" >
+            <img src="./Images/category-2.png" class="card-img-top " alt="./Images." style="width: 170px;">
             <div class="text-center mt-4 card-text">
               <h6>Flour</h6>
             </div>
           </div>
         </div>
         <div class=" col mt-3 p-0 ">
-          <div class="card border-0 ">
-            <img src="./Images/category-3.png" class="card-img-top categoryimg" alt="./Images." style="width: 170px;">
+          <div class="card border-0 categoryimg ">
+            <img src="./Images/category-3.png" class="card-img-top " alt="./Images." style="width: 170px;">
             <div class="text-center mt-4 card-text">
               <h6>Vegetables</h6>
             </div>
           </div>
         </div>
         <div class=" col mt-3 p-0 ">
-          <div class="card border-0" >
-            <img src="./Images/category-4.png" class="card-img-top categoryimg" alt="./Images." style="width: 170px;">
+          <div class="card border-0 categoryimg" >
+            <img src="./Images/category-4.png" class="card-img-top " alt="./Images." style="width: 170px;">
             <div class="text-center mt-4 card-text">
               <h6>Meat</h6>
             </div>
           </div>
         </div>
         <div class=" col mt-3 p-0 ">
-          <div class="card border-0">
-            <img src="./Images/category-5.png" class="card-img-top categoryimg" alt="./Images." style="width: 170px;">
+          <div class="card border- categoryimg0">
+            <img src="./Images/category-5.png" class="card-img-top " alt="./Images." style="width: 170px;">
             <div class="text-center mt-4 card-text">
               <h6>Milk & Eggs</h6>
             </div>
           </div>
         </div>
         <div class=" col mt-3 p-0 ">
-          <div class="card border-0" >
-            <img src="./Images/category-6.png" class="card-img-top categoryimg" alt="./Images." style="width: 170px;">
+          <div class="card border-0 categoryimg" >
+            <img src="./Images/category-6.png" class="card-img-top " alt="./Images." style="width: 170px;">
             <div class="text-center mt-4 card-text">
               <h6>Jam</h6>
             </div>
@@ -403,8 +367,8 @@
               </a>
             </div>
           </div>
-            <div class="card-body  producttext">
-              <h6>Originals Kaval Winkbreaker Wi./Images.</h6>
+            <div class="card-body producttext text-center">
+              <h6 >Originals Kaval Winkbreaker Wi./Images.</h6>
               <div class="text-center">
                 <div class="text">
                     <p><a href="#" class="text-decoration-none text-secondary"> Studio Design</a></p>
@@ -440,7 +404,7 @@
                 </a>
               </div>
             </div>
-              <div class="card-body pb-4 producttext">
+              <div class="card-body pb-4 producttext text-center">
                 <h6>Madden By Steve Madden Cale 6</h6>
                 <div class="text-center">
                   <div class="text">
@@ -476,7 +440,7 @@
                 </a>
               </div>
             </div>
-              <div class="card-body  producttext">
+              <div class="card-body  producttext text-center">
                 <h6>Water And Wind Resistant Insul./Images.</h6>
                 <div class="text-center">
                   <div class="text">
@@ -511,7 +475,7 @@
                 </a>
               </div>
             </div>
-              <div class="card-body  producttext">
+              <div class="card-body  producttext text-center">
                 <h6>Juicy Couture Solid Sleeve Puffe</h6>
                 <div class="text-center">
                   <div class="text">
@@ -549,7 +513,7 @@
               </a>
             </div>
           </div>
-            <div class="card-body  producttext">
+            <div class="card-body  producttext text-center">
               <h6>Juicy Couture Juicy Quilted Terr./Images</h6>
               <div class="text-center">
                 <div class="text">
@@ -586,7 +550,7 @@
                 </a>
               </div> 
             </div>
-              <div class="card-body pb-4 producttext">
+              <div class="card-body pb-4 producttext text-center">
                 <h6>Trans-Weighted Hooded Wind</h6>
                 <div class="text-center">
                   <div class="text">
@@ -622,7 +586,7 @@
                 </a>
               </div>
             </div>
-              <div class="card-body  producttext">
+              <div class="card-body  producttext text-center">
                 <h6>New Balance Fresh Foam Kaymin</h6>
                 <div class="text-center">
                   <div class="text">
@@ -658,7 +622,7 @@
                 </a>
               </div>
             </div>
-              <div class="card-body  producttext">
+              <div class="card-body  producttext text-center">
                 <h6>New Balance Fresh Foam LAZR V</h6>
                 <div class="text-center">
                   <div class="text">

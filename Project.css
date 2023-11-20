@@ -83,6 +83,8 @@
 @media screen and (max-width: 500px) {
   .carousel-bg {
     height: 480px;
+    width: 100%;
+    background-size: cover;
   }
 }
 
@@ -96,6 +98,8 @@
 @media screen and (max-width: 500px) {
   .carousel-bg2 {
     height: 480px;
+    width: 100%;
+    background-size: cover;
   }
 }
 
@@ -304,9 +308,9 @@
   color: rgb(49, 49, 49);
 }
 
-@media screen and (max-width: 500px) {
-  .categoryimg {
-    margin-left: 160px;
+@media screen and (max-width: 424px) {
+  .card .categoryimg {
+    margin-left: 50px !important;
   }
 }
 
@@ -349,7 +353,7 @@
 .producttext span {
   font-size: 17px;
   color: #83bc2e;
-  font-weight: bold;
+  font-weight: bold !important;
   text-decoration: none !important;
 }
 
